@@ -84,3 +84,5 @@ else {
 alert( alert(1) || 2 || alert(3) );
 ```
 // Output - alert(1) and 2
+// The second value within the main alert( ) 2 is truthy value so it stops there.
+// Before showing 2 it has already checked for alert(1) and shown the 1 in alert window.
