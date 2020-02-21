@@ -2,78 +2,76 @@
 
 Write the output (true / false) next to the comparision done below.
 ```js
-"hello world" === "hello world"; // Output
+"hello world" === "hello world"; // Output true
 
-"hello world" == "hello world";
+"hello world" == "hello world"; // Output true
 
-true === true;
+true === true; // Output true
 
-77 == "77";
+77 == "77"; // Output true
 
-77 === "77";
+77 === "77"; // Output false
 
-"cat" === "dog";
+"cat" === "dog"; // Output false
 
-false === 0;
+false === 0; // Output false
 
-false == 0;
+false == 0; // Output true
 
-0 == "";
+0 == ""; // Output true
 
-"" == false;
+"" == false; // Output true
 
-null == null;
+null == null; // Output true
 
-undefined == undefined;
+undefined == undefined; // Output true
 
-null == undefined;
+null == undefined; // Output true
 
-null == 0
+null == 0; // Output false
 
-null == 21
+null == 21; // Output false
 
-null == "null"
+null == "null" // Output false
 
-undefined == "undefined"
+undefined == "undefined" // Output false
 
-undefined == 0
+undefined == 0 // Output false
 
-undefined == false
+undefined == false // Output false
 
-undefined == "false"
+undefined == "false" // Output false
 
-NaN == null;
+NaN == null; // Output false
 
-NaN == "NaN"
+NaN == "NaN" // Output false
 
-NaN == 0
+NaN == 0 // Output false
 
-NaN == false
+NaN == false // Output false
 
-NaN == undefined;
+NaN == undefined; // Output false
 
-NaN == NaN;
+NaN == NaN; // Output false
 
-2 > 1
+2 > 1 // Output true
+ 
+2 != 1 // Output true
 
-2 != 1
-
-'Z' > 'A'
-
-"Hello World" > "Super Mario"
+'Z' > 'A' // Output true
 
 "Hello World" != "Super Mario"
 
-NaN !== NaN
+NaN !== NaN; // Output true
+ 
+NaN != NaN; // Output true
 
-NaN != NaN
+NaN != undefined; // Output true
 
-NaN != undefined
+undefined != null; // Output false
 
-undefined != null
+undefined != "Hello"; // Output true
 
-undefined != "Hello"
-
-undefined != "undefined"
+undefined != "undefined"; // Output true
 
 ```
